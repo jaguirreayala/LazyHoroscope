@@ -14,7 +14,10 @@ int main()
     cin >> first;
     cout << "Now please enter your last name\n>";
     cin >> last;
-  //tell fortune
 
+    string fi = first;
+    string li = last;
+  //tell fortune
+    cout << "Welcome, " << fi[0] << "." << li[0] << "., here is your fortune...\n";
   return 0;
 }
