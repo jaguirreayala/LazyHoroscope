@@ -17,7 +17,8 @@ int main()
 
     string fi = first;
     string li = last;
-  //tell fortune
     cout << "Welcome, " << fi[0] << "." << li[0] << "., here is your fortune...\n";
+  //tell fortune
+    cout << "Your lucky number is " << fi.length() << endl;
   return 0;
 }
