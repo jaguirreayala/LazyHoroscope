@@ -11,9 +11,9 @@ int main()
     string last;
     int index;
   //get user input
-    cout << "Please enter your first name\n>";
+    cout << "What is your first name?\n";
     cin >> first;
-    cout << "Now please enter your last name\n>";
+    cout << "What is your last name?\n";
     cin >> last;
 
     index = last.length() - 1;
